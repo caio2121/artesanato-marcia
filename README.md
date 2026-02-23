@@ -1,4 +1,4 @@
-# Ateliê Tecido Atrevido — Site Oficial
+# Atelier Tecido Atrevido — Site Oficial
 
 Site estático desenvolvido como produto final do **Projeto de Extensão I**  
 Curso: Engenharia de Software — Bacharelado | Centro Universitário Anhanguera Pitágoras Ampli  
@@ -8,7 +8,7 @@ Aluno: Caio Alberto Costa Peixoto de Abreu | RA: 2025021096 | Período: 2025/1
 
 ## Descrição
 
-Portfolio digital da artesã Márcia, responsável pelo **Ateliê Tecido Atrevido**, especializado em artesanato em tecido. O site apresenta a artesã, seu portfólio de produtos e canais de contato, com o objetivo de ampliar a presença digital do negócio e viabilizar encomendas online.
+Portfolio digital da artesã Márcia, responsável pelo **Atelier Tecido Atrevido**, especializado em artesanato em tecido. O site apresenta a artesã, seu portfólio de produtos e canais de contato, com o objetivo de ampliar a presença digital do negócio e viabilizar encomendas online.
 
 ## Acesso
 
@@ -32,7 +32,7 @@ Portfolio digital da artesã Márcia, responsável pelo **Ateliê Tecido Atrevid
 └── README.md
 ```
 
-## Redes Sociais do Ateliê
+## Redes Sociais do Atelier
 
 - Instagram: [@ateliertecidoatrevido](https://www.instagram.com/ateliertecidoatrevido)
 - WhatsApp: +55 21 98001-2014
