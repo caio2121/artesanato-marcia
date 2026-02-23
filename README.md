@@ -1,33 +1,42 @@
-# Site Márcia Artesanato
+# Ateliê Tecido Atrevido — Site Oficial
 
-Site desenvolvido como parte do **Projeto de Extensão I — Engenharia de Software (Ampli)**  
-Aluno: Caio Alberto Costa Peixoto de Abreu | RA: 2025021096
+Site estático desenvolvido como produto final do **Projeto de Extensão I**  
+Curso: Engenharia de Software — Bacharelado | Centro Universitário Anhanguera Pitágoras Ampli  
+Aluno: Caio Alberto Costa Peixoto de Abreu | RA: 2025021096 | Período: 2025/1
 
-## Como publicar no GitHub Pages (URL gratuita)
+---
 
-1. Crie uma conta em https://github.com (se não tiver)
-2. Clique em **New repository**
-3. Nome: `artesanato-marcia`
-4. Marque **Public** e clique **Create repository**
-5. Arraste todos os arquivos desta pasta para a tela do repositório
-6. Vá em **Settings > Pages**
-7. Em "Branch", selecione `main` e clique **Save**
-8. Aguarde 1-2 minutos — o site estará disponível em:
-   `https://SEU-USUARIO.github.io/artesanato-marcia`
+## Descrição
 
-## Personalizar antes de publicar
+Portfolio digital da artesã Márcia, responsável pelo **Ateliê Tecido Atrevido**, especializado em artesanato em tecido. O site apresenta a artesã, seu portfólio de produtos e canais de contato, com o objetivo de ampliar a presença digital do negócio e viabilizar encomendas online.
 
-- **Número do WhatsApp:** No `index.html`, busque `55SEUNUMERO` e substitua pelo número da Márcia (ex: 5521999999999)
-- **Instagram:** Substitua os links `href="#"` das redes sociais pelo @ real da Márcia
-- **Produtos:** Substitua os ícones de placeholder por fotos reais das peças
-- **Cidade:** Já está como Niterói, RJ — ajuste se necessário
+## Acesso
+
+**URL:** [https://caio2121.github.io/artesanato-marcia](https://caio2121.github.io/artesanato-marcia)
+
+## Tecnologias
+
+- HTML5 / CSS3 / JavaScript (vanilla)
+- Hospedagem: GitHub Pages (gratuita)
+- Fontes: Google Fonts (Playfair Display, Inter)
+- Ícones: Font Awesome 6
 
 ## Estrutura
 
 ```
-site-marcia/
-├── index.html   ← página principal
-├── style.css    ← design e responsividade
-├── script.js    ← interações e animações
-└── README.md    ← instruções
+/
+├── index.html      — página principal
+├── style.css       — estilos e responsividade
+├── script.js       — interações e animações
+├── fotos/          — imagens dos produtos e da artesã
+└── README.md
 ```
+
+## Redes Sociais do Ateliê
+
+- Instagram: [@ateliertecidoatrevido](https://www.instagram.com/ateliertecidoatrevido)
+- WhatsApp: +55 21 98001-2014
+
+## Contexto Acadêmico
+
+Este projeto integra o Programa de Ação e Difusão Cultural da instituição, com alinhamento às metas de desenvolvimento sustentável **ODS 4** (Educação de Qualidade — competências digitais) e **ODS 8** (Trabalho Decente e Crescimento Econômico — empreendedorismo cultural).
