@@ -524,6 +524,32 @@ body {
   color: rgba(255,255,255,.4);
 }
 
+/* ── IMAGENS REAIS ── */
+.hero-real-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.sobre-real-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  display: block;
+}
+
+.produto-real-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .4s ease;
+}
+.produto-card:hover .produto-real-img { transform: scale(1.05); }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
   .hero { flex-direction: column; text-align: center; padding-top: 100px; gap: 40px; }
