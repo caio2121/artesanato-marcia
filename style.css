@@ -483,6 +483,188 @@ body {
 .contato-card p { color: var(--text-m); margin-bottom: 28px; line-height: 1.7; }
 .contato-note { font-size: .75rem; color: var(--text-l); margin-top: 12px; margin-bottom: 0; }
 
+/* ── HERO EXTENSION ── */
+.hero-extension {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background: rgba(255,255,255,.9);
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  color: var(--primary-d);
+  font-size: .85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition);
+}
+.hero-extension:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+}
+
+/* ── OFICINAS ── */
+.oficinas {
+  padding: 100px 0;
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
+}
+
+.oficinas-impacto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.impacto-item {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.impacto-item i {
+  font-size: 1.8rem;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+.impacto-item h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.impacto-item p {
+  font-size: .88rem;
+  color: var(--text-m);
+  line-height: 1.6;
+}
+
+.oficinas-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.evento-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  gap: 28px;
+  padding: 32px;
+  border-left: 5px solid var(--primary);
+}
+
+.evento-data {
+  flex-shrink: 0;
+  width: 88px;
+  text-align: center;
+  background: var(--primary);
+  color: var(--white);
+  border-radius: 12px;
+  padding: 16px 10px;
+  line-height: 1.1;
+}
+.evento-dia { display: block; font-size: 2rem; font-weight: 700; }
+.evento-mes { display: block; font-size: .9rem; font-weight: 600; letter-spacing: .06em; }
+.evento-ano { display: block; font-size: .75rem; opacity: .9; margin-top: 4px; }
+
+.evento-badge {
+  display: inline-block;
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+
+.evento-info h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.35rem;
+  margin-bottom: 14px;
+  color: var(--text);
+}
+
+.evento-lista {
+  list-style: none;
+  margin-bottom: 16px;
+}
+.evento-lista li {
+  font-size: .9rem;
+  color: var(--text-m);
+  margin-bottom: 6px;
+}
+.evento-lista i {
+  width: 20px;
+  color: var(--primary);
+  margin-right: 6px;
+}
+
+.evento-desc {
+  font-size: .92rem;
+  color: var(--text-m);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.calendario-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: var(--shadow);
+}
+.calendario-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+.calendario-card h3 i { color: var(--primary); margin-right: 8px; }
+
+.calendario-item {
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  border: 1px solid var(--bg2);
+}
+.calendario-item strong {
+  display: block;
+  color: var(--primary-d);
+  font-size: .95rem;
+  margin-bottom: 4px;
+}
+.calendario-item span {
+  display: block;
+  font-size: .88rem;
+  color: var(--text);
+}
+.calendario-item em {
+  display: block;
+  font-size: .8rem;
+  color: var(--text-l);
+  margin-top: 4px;
+  font-style: normal;
+}
+.calendario-ativo {
+  background: var(--bg2);
+  border-color: var(--accent);
+}
+.calendario-futuro { opacity: .85; }
+
+.calendario-nota {
+  font-size: .78rem;
+  color: var(--text-l);
+  line-height: 1.6;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
 /* ── FOOTER ── */
 .footer { background: var(--text); color: rgba(255,255,255,.7); padding: 60px 0 0; }
 
@@ -561,6 +743,9 @@ body {
   .badge-2 { top: 20px; right: 0; }
 
   .sobre-grid  { grid-template-columns: 1fr; gap: 80px; }
+  .oficinas-impacto { grid-template-columns: 1fr; }
+  .oficinas-grid { grid-template-columns: 1fr; }
+  .evento-card { flex-direction: column; }
   .produtos-grid { grid-template-columns: repeat(2, 1fr); }
   .contato-grid { grid-template-columns: 1fr; gap: 48px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
